@@ -1,0 +1,132 @@
+/* font styles
+font-family: 'Grechen Fuemen', cursive;
+
+font-family: 'Gruppo', cursive;
+
+ */
+
+
+
+
+
+body{
+  background-color: #3E4149;
+  color: #F6F6F6;
+}
+
+::-webkit-input-placeholder{
+  color: red;
+}
+
+#navbar{
+  background-color: #212121;
+}
+
+.header{
+  height:48px;
+   border-bottom:1px solid #404040;
+}
+
+/* navbar */
+.navbar{
+  padding: 0;
+}
+.container1{
+  padding: 8px;
+  border-bottom:  1px solid #F6F6F6
+}
+.navbar-brand  {
+  font-family: 'Grechen Fuemen', cursive;
+  font-size: 2rem;
+  font-weight: lighter;
+  color: #F6F6F6;
+}
+.navbar-brand:hover{
+  color: #D6D6D6;
+}
+
+
+.nav-link{
+  font-family: 'Gruppo', cursive;
+  color: #F6F6F6;
+}
+.nav-link:hover{
+color: #D6D6D6;
+}
+
+/* dorpdown */
+
+.dropdown {
+           position:static!important;
+       }
+
+       .dropdown-menu {
+           box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15)!important;
+           margin-left: 108px  !important;
+           width: 86% !important;
+       }
+/* search bar */
+
+.search{
+  background: transparent;
+  border: none;
+
+}
+
+
+
+.custom-toggler{
+  border-color: #f6f6f6;
+
+}
+
+.fas{
+  color:#f6f6f6
+}
+
+
+
+/* title area */
+
+#title,#content,#products,#info,#lg-logo{
+  margin: 5% 0;
+    font-family: 'Gruppo', cursive;
+}
+/* content area */
+
+.card{
+  height: 90%;
+  width: 100%;
+  background: transparent;
+  border: hidden;
+}
+
+.card img{
+  height: 50%;
+
+}
+
+/* info */
+
+.infoimg{
+  height:
+}
+
+/* last logo */
+.llogo{
+  font-family: 'Grechen Fuemen', cursive !important;
+  font-size: 25rem;
+  border-top: 3px solid #f6f6f6;
+  border-bottom: 3px solid #f6f6f6;
+}
+
+/* footer */
+#footer{
+  background-color: #212121;
+}
+.logo{
+  font-family: 'Gruppo', cursive;
+  font-size: 5rem;
+  font-weight: lighter;
+  color: #F6F6F6;
+}
